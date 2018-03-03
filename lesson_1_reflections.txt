@@ -1,0 +1,42 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+* It compare two files line by line
+* Tell which line is add by + sign(mac + Linux)
+* And which line is remove by - sign(mac + Linux)
+* Or simply say where changes have made
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+* I will become easy to find the bug
+* We can compare file with bug and without bug to know the error
+* We can go back and start again at any point we want
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+** Pros and cons of manually commit:
+ * One can commit after one logical change(pros)
+ * Easy to understand for other what the specific commit does(pros)
+ * Sometimes commit can be illogical(cons)
+ * Sometimes it can be too big and too small.
+** Cons of automatically saving commit
+ * Huge chance of commit to become illogical
+ * Difficult to understand for other what changes have made
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+ * Because in coding, sometime file are connected with each other
+ * Or change in one file effect the other files
+ * So it will become easy to track down all file which have been affected be the
+   commit
+
+How can you use the commands git log and git diff to view the history of files?
+ * git log is used to view the history of the file
+ * One can see the name of the committer, date of commit and message
+ * git diff is used to find the difference between the two commits like number
+   of lines add or number of lines removed etc.
+
+How might using version control make you more confident to make changes that could break something?
+ * One can go to the version where bug was introduced
+ * After find that commit one can make change without changing the master commits
+  (I guess)
+
+Now that you have your workspace set up, what do you want to try using Git for?
+ * I want to use git for all my future projects
+ * So I can make incremental changes and save and see them
+ * I think this is very fun way to learn using git
