@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+* I create a hidden .git directory in the folder we want to track
+* That hidden folder is responsible for tracking the history of the files that folder contains
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+* Repository is what contains the history of changes in files
+* Staging is different in such a way that it give chance to add only those file which are responsible for logical change per commit 
